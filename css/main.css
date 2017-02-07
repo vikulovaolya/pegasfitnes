@@ -1,0 +1,30 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	height: 275px;
+	background-image: url(../images/pegasus.png);
+	background-position: center top;
+}
+
+.div-960grid {
+	width: 960px;
+	height: 275px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*menu is here*/
+nav {
+	height: 30px;
+	background-image: linear-gradient(to bottom, #f0b0b8, #ed3b50);
+}
+
+/* temporary div, border top line needs extra development
+#xx {
+	height: 30px;
+	background-color: #ed3b50;
+	border-top: 1px solid #d04f5e;
+}
