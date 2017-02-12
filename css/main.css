@@ -3,28 +3,107 @@ body {
 	margin: 0px;
 }
 
+@font-face{ 
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans/opensans_regular/OpenSansRegular.eot');
+	src: url('../fonts/OpenSans/opensans_regular/OpenSansRegular.eot?iefix') format('eot'),
+	     url('../fonts/OpenSans/opensans_regular/OpenSansRegular.woff') format('woff'),
+	     url('../fonts/OpenSans/opensans_regular/OpenSansRegular.ttf') format('truetype'),
+	     url('../fonts/OpenSans/opensans_regular/OpenSansRegular.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{ 
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans/opensans_bold/OpenSansBold.eot');
+	src: url('../fonts/OpenSans/opensans_bold/OpenSansBold.eot?iefix') format('eot'),
+	     url('../fonts/OpenSans/opensans_bold/OpenSansBold.woff') format('woff'),
+	     url('../fonts/OpenSans/opensans_bold/OpenSansBold.ttf') format('truetype'),
+	     url('../fonts/OpenSans/opensans_bold/OpenSansBold.svg#webfont') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face{ 
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans/opensans_italic/OpenSansItalic.eot');
+	src: url('../fonts/OpenSans/opensans_italic/OpenSansItalic.eot?iefix') format('eot'),
+	     url('../fonts/OpenSans/opensans_italic/OpenSansItalic.woff') format('woff'),
+	     url('../fonts/OpenSans/opensans_italic/OpenSansItalic.ttf') format('truetype'),
+	     url('../fonts/OpenSans/opensans_italic/OpenSansItalic.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
 header {
 	height: 275px;
 	background-image: url(../images/pegasus.png);
 	background-position: center top;
 }
 
+/*menu is here*/
+nav {
+	height: 30px;
+	background-color: #ed3b50;
+	border-top: 1px solid #d04f5e;
+}
+
+nav>div {
+	height: 30px;
+}
+
 .div-960grid {
 	width: 960px;
-	height: 275px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-/*menu is here*/
-nav {
-	height: 30px;
-	background-image: linear-gradient(to bottom, #f0b0b8, #ed3b50);
+nav #menu {
+	float: left;
+	width: 700px;
+	height: inherit;
 }
 
-/* temporary div, border top line needs extra development */
-#xx {
-	height: 30px;
-	background-color: #ed3b50;
-	border-top: 1px solid #d04f5e;
+nav #menu ul {
+	padding: 0px;
+	margin: 0px;
+	height: inherit;
+}
+
+nav #menu ul li {
+	display: inline-block;
+	height: inherit;
+}
+
+nav #menu ul li a {
+	display: block;
+	height: inherit;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	font-size: 125%;
+	margin-right: 40px;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+nav #menu ul li a:hover {
+	background-image: url(../images/tri.png);
+}
+
+nav #login {
+	width: 260px;
+	height: inherit;
+	margin-left: 700px;
+	text-align: right;
+}
+
+nav #login a {
+	display: inline-block;
+	height: inherit;
+	text-decoration: none;
+	color: #000000;
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	font-size: 120%;
 }
