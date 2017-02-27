@@ -44,13 +44,13 @@ header {
 
 /*menu is here*/
 nav {
-	height: 30px;
+	height: 40px;
 	background-color: #ed3b50;
 	border-top: 1px solid #d04f5e;
 }
 
 nav>div {
-	height: 30px;
+	height: 40px;
 }
 
 .div-960grid {
@@ -78,18 +78,27 @@ nav #menu ul li {
 
 nav #menu ul li a {
 	display: block;
-	height: inherit;
+	height: 34px;
 	text-decoration: none;
 	color: #ffffff;
 	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   				 1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   				 1px 1px 1px rgba(0,0,0,0.3); /* тёмная тень */
 	font-size: 125%;
 	margin-right: 40px;
 	padding-right: 8px;
 	padding-left: 8px;
+	padding-top: 6px;
+	/*transition: background-image 1s ease-in-out;
+	-webkit-transition: background-image 1s ease-in-out;
+	-moz-transition: background-image 1s ease-in-out;
+	-ms-transition: background-image 1s ease-in-out;*/
 }
 
 nav #menu ul li a:hover {
 	background-image: url(../images/tri.png);
+	/*background-color: black;*/
 }
 
 nav #login {
@@ -106,4 +115,17 @@ nav #login a {
 	color: #000000;
 	font-family: OpenSans, Verdana, Helvetica, sans-serif;
 	font-size: 120%;
+}
+
+#main {
+	background-image: url(../images/shattered2X.png);
+	height: 800px;
+}
+
+#slider {
+	height: 540px;
+	width: 960px;
+	background-image: url(../images/slider.png);
+	margin-left: auto;
+	margin-right: auto;
 }
