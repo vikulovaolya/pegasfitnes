@@ -119,7 +119,6 @@ nav #login a {
 
 #main {
 	background-image: url(../images/shattered2X.png);
-	height: 800px;
 }
 
 #slider {
@@ -128,4 +127,47 @@ nav #login a {
 	background-image: url(../images/slider.png);
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#news-title {
+	padding-top: 10px;
+	height: 50px;
+	text-align: center;
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	font-size: 180%;
+}
+
+.news-line {
+	height: 270px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#block_one {
+	height: 270px;
+	width: 480px;
+	background-image: url(../images/news_block_one.png); 
+	float: left;
+}
+
+#block_two {
+	height: 270px;
+	width: 480px;
+	margin-left: 480px;
+	background-color: #9985ec; 
+}
+
+#block_three {
+	height: 270px;
+	width: 480px;
+	background-color: #ec9185; 
+	float: left;
+}
+
+#block_four {
+	height: 270px;
+	width: 480px;
+	margin-left: 480px;
+	background-color: #85d7ec; 
 }
