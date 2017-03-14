@@ -57,6 +57,7 @@ nav>div {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+	/*background-image: url(../images/shattered_pink.png);*/
 }
 
 nav #menu {
@@ -117,8 +118,12 @@ nav #login a {
 	font-size: 120%;
 }
 
-#main {
+.greyback {
 	background-image: url(../images/shattered2X.png);
+}
+
+.pinkback {
+	background-image: url(../images/shattered_pink.png);
 }
 
 #slider {
@@ -155,13 +160,13 @@ nav #login a {
 	height: 270px;
 	width: 480px;
 	margin-left: 480px;
-	background-color: #9985ec; 
+	background-image: url(../images/news_block_two.png); 
 }
 
 #block_three {
 	height: 270px;
 	width: 480px;
-	background-color: #ec9185; 
+	background-image: url(../images/news_block_three.png);
 	float: left;
 }
 
@@ -169,5 +174,65 @@ nav #login a {
 	height: 270px;
 	width: 480px;
 	margin-left: 480px;
-	background-color: #85d7ec; 
+	background-image: url(../images/news_block_four.png);
+}
+
+#specline {
+	height: 140px;
+}
+
+.text-news {
+	display: inline-block;
+	height: 140px;
+	width: 317px;
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	vertical-align: middle;
+}
+
+.text-news-date {
+	padding: 25px 5px 0px 5px;
+	margin: 0px;
+	color: #9E9E9E;
+	text-align: left;
+	font-size: 100%;
+}
+
+.text-news-msg {
+	padding: 10px 10px 0px 5px;
+	margin: 0px;
+	text-align: left;
+	font-size: 100%;
+}
+
+div.text-news p.text-news-msg a {
+	color: #000000;
+	text-decoration: none;
+	-webkit-transition-duration: 0.1s;
+	-moz-transition-duration: 0.1s;
+	-o-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+}
+
+div.text-news p.text-news-msg a:hover {
+	color: #EC8591;
+	text-decoration: underline;
+}
+
+#mtvtr {
+	height: 638px;
+	background-image: url(../images/quarterback.png);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+#mtvtr:hover {
+	background-image: url(../images/quarterback2.png);
+}
+
+.trans {
+	-webkit-transition-property: background-image;
+	transition-property: background-image;
+	-moz-transition-property: background-image;
 }
