@@ -98,8 +98,12 @@ nav #menu ul li a {
 }
 
 nav #menu ul li a:hover {
-	background-image: url(../images/tri.png);
+	background-image: url(../images/triangles.png);
 	/*background-color: black;*/
+}
+
+nav #menu ul li #small_trngls:hover {
+	background-image: url(../images/triangles_short.png);
 }
 
 nav #login {
@@ -111,11 +115,12 @@ nav #login {
 
 nav #login a {
 	display: inline-block;
-	height: inherit;
+	height: 30px;
 	text-decoration: none;
 	color: #000000;
 	font-family: OpenSans, Verdana, Helvetica, sans-serif;
 	font-size: 120%;
+	margin-top: 5px;
 }
 
 .greyback {
@@ -231,8 +236,68 @@ div.text-news p.text-news-msg a:hover {
 	background-image: url(../images/quarterback2.png);
 }
 
-.trans {
-	-webkit-transition-property: background-image;
-	transition-property: background-image;
-	-moz-transition-property: background-image;
+#spacer {
+	height: 20px;
+}
+
+footer {
+	height: 360px;
+	background-image: url(../images/footer6.png);
+}
+
+.foot_clmn {
+	display: inline-block;
+	vertical-align: top;
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	margin-left: 0px;
+	margin-right: 80px;
+}
+
+.foot_clmn p {
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	font-size: 100%;
+}
+
+.foot_clmn ul {
+	/*text-decoration: none;*/
+	list-style: none;
+	padding: 0px;
+	font-size: 95%;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+.foot_clmn ul li {
+	padding-top: 8px;
+	text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   				 1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   				 1px 1px 1px rgba(0,0,0,0.3); /* тёмная тень */
+}
+
+.foot_clmn ul li a {
+	color: #202020;
+	text-decoration: none;
+	-webkit-transition-duration: 0.1s;
+	-moz-transition-duration: 0.1s;
+	-o-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+}
+
+#footer-white li a {
+	color: #ECECEC;
+}
+
+.foot_clmn ul li a:hover, #footer-white li a:hover {
+	color: #F27483;
+	text-decoration: underline;
+}
+
+#author {
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	font-size: 120%;
+	color: #F27483;
+	margin: 80px 0px 5px 0px;
 }
