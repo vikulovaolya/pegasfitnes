@@ -301,3 +301,127 @@ footer {
 	color: #F27483;
 	margin: 80px 0px 5px 0px;
 }
+
+#card {
+	height: 400px;
+	width: 480px; 
+	float: left;
+}
+
+
+
+div.text {
+	height: 390px;
+	width: 420px;
+	margin-left: 480px; 
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	font-size:120%;
+	background-color: #9c9c9c;
+	
+}
+
+div.text p.text-about-club{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	vertical-align: middle;
+}
+
+div.indent{
+	height: 10px;
+}
+
+#info-cubes {
+	height: 320px;
+	color: #ffffff 
+}
+
+div.info-cube{
+	background-color: #ed3b50; 
+	display: inline-block;
+	height: 320px;
+	width: 277px; /*317-(padding.left+padding.right)*/
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 140%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div.indent-cubes{
+	height: 3px;
+}
+
+#cube-one{
+padding-top: 95px;
+height: 225px; /* в сумме 320*/
+}
+
+#cube-two{
+padding-top: 15px;
+height: 305px; /* в сумме 320*/
+}
+
+#cube-three{
+padding-top: 15px;
+height: 305px; /* в сумме 320*/
+}
+
+#cube-four{
+padding-top: 60px;
+height: 260px; /* в сумме 320*/
+}
+
+#cube-five{
+padding-top: 35px;
+height: 285px; /* в сумме 320*/
+}
+
+#cube-six{
+padding-top: 15px;
+height: 305px; /* в сумме 320*/
+}
+
+#cube-seven{
+padding-top: 95px;
+height: 225px; /* в сумме 320*/
+}
+
+#cube-eight{
+padding-top: 35px;
+height: 285px; /* в сумме 320*/
+}
+
+#cube-nine{
+padding-top: 95px;
+height: 225px; /* в сумме 320*/
+}
+
+#contact-block {
+	padding-top: 40px;
+	padding-left: 30px;
+    height: 360px; /*400 -padding.top */
+    width: 450px;  /*480 -padding.left */
+    float: left;
+    background-color: #9FB6CD;
+}
+
+p.contact-text {
+	font-weight: bold;
+	font-size: 190%;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	vertical-align: middle;
+}
+
+p.contact-inf {
+	font-size: 230%;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	vertical-align: middle;
+}
