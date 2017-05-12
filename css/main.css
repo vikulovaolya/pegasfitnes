@@ -308,8 +308,6 @@ footer {
 	float: left;
 }
 
-
-
 div.text {
 	height: 390px;
 	width: 420px;
@@ -319,7 +317,6 @@ div.text {
 	padding-top: 10px;
 	font-size:120%;
 	background-color: #9c9c9c;
-	
 }
 
 div.text p.text-about-club{
@@ -486,7 +483,6 @@ a.button-buy-now {
   border-radius: 1px;
   transition: 0.2s;
   font-family: OpenSans, Verdana, Helvetica, sans-serif;
-
 } 
 a.button8:hover { background: rgba(255,255,255,.2); }
 a.button8:active { background: white; }
@@ -558,4 +554,180 @@ div.block-aim-left {
 	font-family: OpenSans, Verdana, Helvetica, sans-serif;
 	vertical-align: middle;
 	color: #FFFFFF;
+}
+
+#picture-spa-one {
+	height: 310px;
+	width: 480px;
+	background-image: url(../images/page-spa-one.png); 
+	float: left;
+}
+
+#picture-spa-two {
+	height: 310px;
+	width: 480px;
+	background-image: url(../images/page-spa-two.png); 
+	float: left;
+}
+
+#picture-spa-three {
+	height: 310px;
+	width: 480px;
+	background-image: url(../images/page-spa-three.png); 
+	float: left;
+}
+
+#picture-spa-four {
+	height: 310px;
+	width: 480px;
+	background-image: url(../images/page-spa-four.png); 
+	float: left;
+}
+
+div#tableContainer{
+	font-size: 80%;
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	display: table;
+	border-collapse: collapse;
+}
+
+div.tableRow{
+	display: table-row;
+	padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 3px solid maroon;
+}
+
+div#tableHeader {
+	display: table-row;
+}
+
+#time{
+	padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 3px solid maroon;
+	display: table-cell;
+	background: #587cd6;
+	font-size: 105%;
+	padding: 15px;
+	margin: 0px, 10px, 10px, 10px;
+}
+
+#mon{
+	padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 3px solid maroon;
+    max-width: 75px;
+	display: table-cell;
+	background: #ed3b50;
+	font-size: 105%;
+	padding: 15px;
+	margin: 0px, 10px, 10px, 10px;
+}
+
+#tue{
+	padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 3px solid maroon;
+	display: table-cell;
+	background: #ed3b50;
+	font-size: 105%;
+	padding: 15px;
+	margin: 0px, 10px, 10px, 10px;
+}
+
+#wed{
+	padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 3px solid maroon;
+	display: table-cell;
+	background: #ed3b50;
+	font-size: 105%;
+	padding: 15px;
+	margin: 0px, 10px, 10px, 10px;
+}
+
+#thu{
+	padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 3px solid maroon;
+	display: table-cell;
+	background: #ed3b50;
+	font-size: 105%;
+	padding: 15px;
+	margin: 0px, 10px, 10px, 10px;
+}
+
+#fri{
+	padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 3px solid maroon;
+	display: table-cell;
+	background: #ed3b50;
+	font-size: 105%;
+	padding: 15px;
+	margin: 0px, 10px, 10px, 10px;
+}
+
+#sat{
+	padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 3px solid maroon;
+	display: table-cell;
+	background: #ed3b50;
+	font-size: 105%;
+	padding: 15px;
+	margin: 0px, 10px, 10px, 10px;
+}
+
+#sun{
+	padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 3px solid maroon;
+	display: table-cell;
+	background: #ed3b50;
+	font-size: 105%;
+	padding: 15px;
+	margin: 0px, 10px, 10px, 10px;
+}
+
+
+#documents{
+	font-size: 120%;
+	text-decoration: none;
+}
+
+.sign-doc {
+	height: 40px;
+	width: 40px;
+	background-image: url(../images/sign-doc.png); 
+	float: left;
+}
+
+#securityDoc-block {
+	padding-top: 10px;
+	padding-left: 30px;
+    height: 360px; /*380 -padding.top */
+    width: 450px;  /*480 -padding.left */
+    float: left;
+    background-color: #9FB6CD;
+}
+
+p#documents a {
+	color: #ed3b50;
+	text-decoration: none;
+	-webkit-transition-duration: 0.1s;
+	-moz-transition-duration: 0.1s;
+	-o-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+}
+
+div.text-security {
+	height: 340px;
+	width: 420px;
+	margin-left: 480px; 
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	font-size:120%;
+	background-color: #9c9c9c;
+	
+}
+
+div.text-security p.text-security-club{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	vertical-align: middle;
 }
