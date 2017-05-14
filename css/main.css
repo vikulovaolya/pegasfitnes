@@ -136,6 +136,10 @@ nav #login a:hover {
 	background-image: url(../images/shattered2X.png);
 }
 
+.greysolid {
+	background-color: #EAEAEA;
+}
+
 .pinkback {
 	background-image: url(../images/shattered_pink.png);
 }
@@ -734,9 +738,66 @@ div.text-security {
 	
 }
 
-div.text-security p.text-security-club{
+div.text-security p.text-security-club {
 	color: #FFFFFF;
 	text-decoration: none;
 	font-family: OpenSans, Verdana, Helvetica, sans-serif;
 	vertical-align: middle;
+}
+
+div#sign_in_block {
+	height: 300px;
+	padding-bottom: 15px;
+	background-color: #EC8591;
+}
+
+form#sign_in {
+	height: 400px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+}
+
+div#form-spacer {
+	height: 15px;
+}
+
+.div-label {
+	width: 200px;
+	float: left;
+	text-align: right;
+}
+
+.div-label label {
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	font-size: 100%;
+	/*display: inline-block;*/
+	line-height: 175%;
+	color: #666666;
+}
+
+.div-input {
+	padding-left: 230px;
+	margin-bottom: 8px;
+	text-align: left;
+}
+
+.div-input input {
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	font-size: 100%;
+	box-shadow: none;
+	/*border: 1px solid #cccccc;*/
+}
+
+/*.div-input select {
+	font-family: 'OpenSans';
+	font-size: 110%;
+	/*border: 1px solid #cccccc;*/
+	/*width: 298px;
+}*/
+
+#submit-button {
+	font-family: 'OpenSans';
+	font-size: 100%;
 }
