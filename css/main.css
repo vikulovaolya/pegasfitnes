@@ -115,12 +115,21 @@ nav #login {
 
 nav #login a {
 	display: inline-block;
-	height: 30px;
+	height: 34px;
 	text-decoration: none;
 	color: #000000;
 	font-family: OpenSans, Verdana, Helvetica, sans-serif;
-	font-size: 120%;
-	margin-top: 5px;
+	text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   				 1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   				 1px 1px 1px rgba(0,0,0,0.3); /* тёмная тень */
+	font-size: 125%;
+	padding: 6px 10px 0px 10px;
+
+}
+
+nav #login a:hover {
+	color: #EEEEEE;
+	background-image: url(../images/triangles_short.png);
 }
 
 .greyback {
