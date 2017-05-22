@@ -468,13 +468,6 @@ p.info-before-buy-text {
 	vertical-align: middle;
 }
 
-#model {
-	height: 380px;
-	width: 480px; 
-	float: left;
-	background-color: #9c9c9c;
-}
-
 #card-info{
 	background-color: #ed3b50;
 	height: 370px;  /* */
@@ -800,4 +793,44 @@ div#form-spacer {
 #submit-button {
 	font-family: 'OpenSans';
 	font-size: 100%;
+}
+
+.div-input label {
+	font-family: OpenSans, Verdana, Helvetica, sans-serif;
+	font-size: 100%;
+	/*display: inline-block;*/
+	line-height: 175%;
+	color: #666666;
+}
+
+#model-one{ 
+	background-image: url(../images/card1.png); 
+	float: left;
+}
+
+.info-about-club .model {
+	height: 380px;
+	width: 480px; 
+	float: left;
+	background-color: #BEBEBE;
+}
+
+#model-two{ 
+	background-image: url(../images/card2.png); 
+	float: left;
+}
+
+#model-three{ 
+	background-image: url(../images/card3.png); 
+	float: left;
+}
+
+#model-four{ 
+	background-image: url(../images/card4.png); 
+	float: left;
+}
+
+#model-five{ 
+	background-image: url(../images/card5.png); 
+	float: left;
 }

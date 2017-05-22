@@ -27,10 +27,10 @@
 		</div>
 	</nav>
 	<div class="pinkback">
-		<div class="div-960grid">
+		<!--div class="div-960grid">
 			<div id="sign_in_block">
 			</div>
-		</div>
+		</div-->
 	</div>
 	<div class="greysolid">
 		<div class="div-960grid">
@@ -49,6 +49,13 @@
 				<div class="div-input">
 					<input title="Придумайте пароль. Пароль может содержать только латинские буквы и цифры, а также он не должен быть длиннее 20 и короче 10 символов." 
 						   type="password" id="password" name="password" size="24" pattern=".{10,20}" required>
+				</div>
+				<div class="div-label">
+					<label for="password">Пароль*</label>
+				</div>
+				<div class="div-input">
+					<input title="Повторите пароль" 
+						   type="password" id="password2" name="password2" size="24" pattern=".{10,20}" required>
 				</div>
 				<div id="form-spacer"></div>
 				<div class="div-label">
@@ -73,6 +80,22 @@
 				<div class="div-input">
 				<input title="Введите дату рождения в заданном формате" type="text" 
 					   id="birth_date" name="birth_date" size="24" placeholder="ДД.ММ.ГГГГ" 
+					   value="" maxlength="10" required>
+				</div>
+
+				<div class="div-label">
+					<label for="sex">Пол</label>
+				</div>
+				<div class="div-input">
+  					<input type="radio" id="sex" name="sex" value="man" checked><label>М</label>
+  					<input type="radio" id="sex" name="sex" value="woman"><label>Ж</label>
+				</div>
+				<div class="div-label">
+					<label for="phone">Телефон</label>
+				</div>
+				<div class="div-input">
+				<input title="Введите номер телефона" type="text" 
+					   id="phone" name="phone" size="24" placeholder="+7(000)000-00-00" 
 					   value="" maxlength="10" required>
 				</div>
 				<div id="form-spacer"></div>
